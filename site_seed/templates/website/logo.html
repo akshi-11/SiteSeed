@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="create_article">
+    <h2>Add logo Here!</h2>
+    <form class="site-form"  action="" method = "POST">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Create">
+
+    </form>
+</div>
+{% endblock %}
