@@ -26,6 +26,11 @@ SECRET_KEY = 'u#@4zcy$ar4^v8sux1x8csax4-r-qwj^z*%(0gj-a@f=s+j3s)'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'webdevelopers098@gmail.com'
+EMAIL_HOST_PASSWORD = '9460182487'
+EMAIL_PORT = 587
 
 
 # Application definition
@@ -40,6 +45,9 @@ INSTALLED_APPS = [
     'accounts',
     'bootstrap3',
     'website',
+    'SignUp',
+    'rest_framework',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [

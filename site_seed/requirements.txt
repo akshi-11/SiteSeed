@@ -7,3 +7,5 @@ pipenv==2018.7.1
 pytz==2018.5
 virtualenv==16.0.0
 virtualenv-clone==0.3.0
+djangorestframework==3.8.2
+django-crispy-forms==1.7.2
